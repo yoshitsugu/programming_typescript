@@ -35,9 +35,6 @@ const reserve: Reserve = (
   }
 };
 
-// tslint:disable-next-line:no-console
 console.log(reserve(new Date("2020-03-31"), new Date("2020-04-02"), "Tokyo"));
-// tslint:disable-next-line:no-console
 console.log(reserve(new Date("2020-01-15"), "Kyoto"));
-// tslint:disable-next-line:no-console
 console.log(reserve("Naha"));
